@@ -26,6 +26,13 @@ The code has a tensorflow version and a pytorch version, and their corresponding
   * Pytorch == 2.0.1
   * CUDA == 12.4
 
+```
+conda create -n psegnet python=3.8
+conda activate psegnet
+pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --index-url https://download.pytorch.org/whl/cu117  
+pip install scipy sciki-learn opencv-python
+``` 
+
 ## Introduction<br>
 ### PlantNet<br>
 The accurate plant organ segmentation is crucial and challenging to the quantification of plant architecture and 
