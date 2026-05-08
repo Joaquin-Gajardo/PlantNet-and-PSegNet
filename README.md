@@ -30,7 +30,7 @@ The code has a tensorflow version and a pytorch version, and their corresponding
 conda create -n psegnet python=3.8
 conda activate psegnet
 pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --index-url https://download.pytorch.org/whl/cu117  
-pip install scipy sciki-learn opencv-python
+pip install scipy scikit-learn opencv-python
 ``` 
 
 ## Introduction<br>
